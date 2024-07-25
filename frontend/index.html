@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Single Page App</title>
+      <link rel="stylesheet" href="/static/css/index.css">
+      <script src="./script/script.js" defer></script>
+  </head>
+  <body>
+      <h1>Single Page App</h1>
+      <p>Enter a class you have taken</p>
+
+      <label for="major">Choose your faculty:</label>
+      <select name="major"  id="major"> 
+        <option value="" selected disabled hidden>Choose here</option>
+        <option value="appliedSciences">Faculty of Applied Sciences</option>
+        <option value="socialSciences">Faculty of Arts and Social Sciences</option>
+        <option value="communicationTechnology">Faculty of Communication, Art and Technology</option>
+        <option value="education">Faculty of Education</option>
+        <option value="environment">Faculty of Environment</option>
+        <option value="healthSciences">Faculty of Health Sciences</option>
+        <option value="sciences">Faculty of Science</option>
+      </select> 
+
+      <p class = "output" id ="ouput"></p>
+      <form> 
+          <input type="text" placeholder="class">
+          <button>Submit</button>
+      </form>
+
+      <div id="app"></div> 
+      <script> console.log("hello world")</script> 
+
+
+  </body>
+</html>
+
